@@ -3,7 +3,7 @@ import styles from './Header.css';
 
 const Header = () => (
   <header className={styles.Header}>
-    <p>Resume Header</p>
+    <p>React Resume</p>
   </header>
 );
 

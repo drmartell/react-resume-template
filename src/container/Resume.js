@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../data/resume.json';
+import resume from '../data/resume-object.json';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Body from '../components/Body';
@@ -16,11 +16,10 @@ export default class Resume extends React.Component {
   }
 
   render() {
-    const { ...data } = this.state;
     return (
       <main className={styles.Resume}>
         <Header />
-        <Body props={data}/>
+        <Body {...this.state} />
         <Footer />
       </main>
     );

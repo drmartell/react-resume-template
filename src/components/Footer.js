@@ -3,7 +3,7 @@ import styles from './Footer.css';
 
 const Footer = () => (
   <footer className={styles.Header}>
-    <p>Resume Footer</p>
+    <p><i>Any resemblance to real persons, living or dead, is purely coincidental.</i></p>
   </footer>
 );
 
